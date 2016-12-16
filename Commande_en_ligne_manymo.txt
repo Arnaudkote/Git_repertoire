@@ -1,0 +1,22 @@
+Syntaxe : manymo [options] command  [arguments]
+
+
+commands :
+
+launch EMULATORNAME  :  launch a headless emulator  and make it appar like a local device.
+
+
+list   : list  emulators use the name attriubute  with the launch command.
+
+
+tunnel  TUNNELKEY :  make an in-browser emulator appear like a local device.
+
+
+options :
+
+
+h, --help print this help
+
+p, --adb-path path to adb executable
+
+v   verbose
